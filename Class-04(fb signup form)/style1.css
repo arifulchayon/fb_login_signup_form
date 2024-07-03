@@ -1,0 +1,241 @@
+/* Google open sens font link up */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* ********************
+******** Global CSS   ******* 
+************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+}
+body{
+    /* font-family:  ~~~~font name which we will use~~~~~ 
+    "Open Sans", sans-serif;   */
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/* now start our normal project css */
+
+
+.fb-signup{
+    background-color: rgb(231, 231, 230);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.fb-signup .container{
+
+
+}
+.fb-signup .container .main-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.fb-signup .container .main-part .signup-info{
+
+    height: 610px;
+    width: 490px;
+    background-color: white;
+    box-shadow: 0 0 white, 0 1px 1px 0 white, 0 2px 2px 0 rgb(189, 187, 187), 0 3px 3px 0 rgb(185, 183, 183), 0 3px 3px 0 rgb(177, 172, 172), 0 4px 4px 0 rgb(214, 211, 211);
+}
+.fb-signup .container .main-part .signup-info .intro p {
+    border-bottom: 1px solid #bdb9b9;
+    margin: 5px 0px 5px;
+    padding: 4px;
+}
+.fb-signup .container .main-part .signup-info .form-part{
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.fb-signup .container .main-part .signup-info .intro h1{
+    font-size: 38px;
+    padding: 8px 10px 0 10px;
+}
+.fb-signup .container .main-part .signup-info .intro h5 {
+    padding: 8px 10px 0 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.fb-signup .container .main-part .signup-info input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.fb-signup .container .main-part .signup-info .form-part .name{
+    display: flex;
+}
+.fb-signup .container .main-part .signup-info .form-part .name .name1st{
+    width: 49%;
+    margin-right: 2%;
+}
+.fb-signup .container .main-part .signup-info .form-part .name .name2nd{
+    width: 49%;
+}
+.fb-signup .container .main-part .signup-info .form-part .info-birth{
+    color: #606770;
+    font-weight: normal;
+    font-size: 14px;
+}
+.fb-signup .container .main-part .signup-info .form-part .dob{
+    display: flex;
+}
+.fb-signup .container .main-part .signup-info .form-part .dob .days{
+    border: 1px solid grey;
+    height: 40px;
+    width: 155px;
+    margin-right: 7px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.fb-signup .container .main-part .signup-info .form-part .dob .month{
+    border: 1px solid grey;
+    height: 40px;
+    width: 155px;
+    margin-right: 7px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.fb-signup .container .main-part .signup-info .form-part .dob .year{
+    border: 1px solid grey;
+    height: 40px;
+    width: 155px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.fb-signup .container .main-part .signup-info .form-part .gender{
+    display: flex;
+    
+}
+.fb-signup .container .main-part .signup-info .form-part .gender-info{
+    color: #606770;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.fb-signup .container .main-part .signup-info .form-part .gender .female{
+    border: 1px solid grey;
+    height: 40px;
+    width: 155px;
+    margin-right: 7px;
+    display: flex;
+    border-radius: 5px;
+
+}
+.fb-signup .container .main-part .signup-info .form-part .gender .female .btn {
+    height: 15px;
+    margin: 12px 9px 5px 38px;
+}
+
+.fb-signup .container .main-part .signup-info .form-part .gender .male {
+    border: 1px solid grey;
+    height: 40px;
+    width: 155px;
+    margin-right: 7px;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.fb-signup .container .main-part .signup-info .form-part .gender .male .btn {
+    height: 15px;
+    margin: 12px 13px 5px 60px;
+}
+.fb-signup .container .main-part .signup-info .form-part .gender .custom{
+    border: 1px solid grey;
+    height: 40px;
+    width: 155px;
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.fb-signup .container .main-part .signup-info .form-part .gender .custom .btn {
+    height: 15px;
+    margin: 11px 7px 3px 33px;
+}
+.fb-signup .container .main-part .signup-info .form-part .gender label {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.fb-signup .container .main-part .signup-info .form-part .information p {
+    margin: 10px;
+    color: #606770;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+}
+.fb-signup .container .main-part .signup-info .form-part .information a{
+    color: #064cda;
+
+}
+.fb-signup .container .main-part .signup-info .form-part .information a:visited{
+    color: #064cda;
+
+}
+
+.fb-signup .container .main-part .signup-info .form-part .create {
+    border: 1px solid #42b72a;
+    background-color: #42b72a;
+    height: 44px;
+    width: 194px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 142px;
+    padding: 14px 5px 14px 5px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "Poppins", sans-serif;
+    margin: 20px 142px 10px 147px;
+    a{color: white;}
+}
+.fb-signup .container .main-part .signup-info .form-part .create:hover{
+    border: 1px solid #2b8818;
+    background-color: #2b8818;
+    transition: 0.5s;
+}
+
+.fb-signup .container .main-part .signup-info .form-part .have-acc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 15px 120px 10px 133px;
+    a{ color: rgb(28, 28, 240);}
+    font-weight: 400;
+    
+}

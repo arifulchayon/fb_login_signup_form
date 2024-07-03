@@ -1,0 +1,163 @@
+/* Google open sens font link up */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+/* ********************
+******** Global CSS   ******* 
+************************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+}
+body{
+    /* font-family:  ~~~~font name which we will use~~~~~ 
+    "Open Sans", sans-serif;   */
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+a, a:hover{
+    text-decoration: none;
+}
+
+/* now start our normal project css */
+
+.fb-login{
+    height: 100vh;
+    background-color: rgb(231, 231, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.fb-login .container{
+
+
+}
+.fb-login .container .main-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fb-login .container .main-part .info{
+    margin: 10px 20px 10px 15px;
+}
+.fb-login .container .main-part .info h1{
+    color: #0866ff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.fb-login .container .main-part .info h2 {
+    font-size: 29px;
+    width: 495px;
+    font-weight: 300;
+    line-height: 31px;
+}
+
+.fb-login .container .main-part .login-info {
+    height: 400px;
+    width: 370px;
+    background-color: white;
+    box-shadow: 0 0 white, 1px 1px 1px white, 2px 2px 2px rgb(189, 187, 187), 3px 3px 3px rgb(185, 183, 183), 3px 3px 3px rgb(177, 172, 172), 4px 4px 4px rgb(214, 211, 211);
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 15px;
+}
+.fb-login .container .main-part .login-info input {
+    width: 100%;
+    padding: 12px 14px 12px 14px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+.fb-login .container .main-part .login-info .forgot{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.fb-login .container .main-part .login-info .forgot a {
+    color: #0866ff;
+}
+
+.fb-login .container .main-part .login-info .line{
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+.fb-login .container .main-part .login-info .btn-login input {
+    background-color: #0866ff;
+    border: 1px solid #0866ff;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+.fb-login .container .main-part .login-info .btn-login input:hover{
+    background-color: #1877f2;
+    transition: 0.3s;
+}
+
+/* .fb-login .container .main-part .login-info .create input {
+    width: 60%;
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    margin-left: 65px;
+    color: white;
+    padding: 14px 5px 14px 5px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fb-login .container .main-part .login-info .create input:hover {
+    background-color: #36a420;
+    border: 1px solid #36a420;
+    transition: 0.5s;
+} */
+
+.fb-login .container .main-part .login-info .create{
+    width: 60%;
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    margin-left: 65px;
+    color: white;
+    padding: 14px 5px 14px 5px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{color: white;}
+
+}
+.fb-login .container .main-part .login-info .create:hover {
+    background-color: #36a420;
+    border: 1px solid #36a420;
+    transition: 0.5s;
+}
